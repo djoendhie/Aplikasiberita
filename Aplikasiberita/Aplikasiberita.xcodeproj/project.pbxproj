@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544E7041C2F6BE99200C294A /* Pods_Aplikasiberita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF7BCA8517EBE91B952B66C /* Pods_Aplikasiberita.framework */; };
+		D6917A661FBACDFF0015EC1F /* KategoriTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917A651FBACDFF0015EC1F /* KategoriTableViewController.swift */; };
+		D6917A681FBACE120015EC1F /* KategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917A671FBACE120015EC1F /* KategoriTableViewCell.swift */; };
+		D6917A6A1FBACE990015EC1F /* BeritaKategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917A691FBACE990015EC1F /* BeritaKategoriTableViewCell.swift */; };
+		D6917A6C1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917A6B1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift */; };
 		D6F192191FBA8F3E00B26864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F192181FBA8F3E00B26864 /* AppDelegate.swift */; };
 		D6F1921B1FBA8F3E00B26864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F1921A1FBA8F3E00B26864 /* ViewController.swift */; };
 		D6F1921E1FBA8F3E00B26864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F1921C1FBA8F3E00B26864 /* Main.storyboard */; };
@@ -14,6 +19,10 @@
 		D6F192231FBA8F3E00B26864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F192211FBA8F3E00B26864 /* LaunchScreen.storyboard */; };
 		D6F1922E1FBA8F3E00B26864 /* AplikasiberitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F1922D1FBA8F3E00B26864 /* AplikasiberitaTests.swift */; };
 		D6F192391FBA8F3E00B26864 /* AplikasiberitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F192381FBA8F3E00B26864 /* AplikasiberitaUITests.swift */; };
+		D6F192471FBA9B3000B26864 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F192461FBA9B3000B26864 /* News.swift */; };
+		D6F192491FBA9B6C00B26864 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F192481FBA9B6C00B26864 /* DetailViewController.swift */; };
+		D6F1924B1FBA9B8000B26864 /* BeritaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F1924A1FBA9B8000B26864 /* BeritaTableViewController.swift */; };
+		D6F1924D1FBA9B9200B26864 /* BeritaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F1924C1FBA9B9200B26864 /* BeritaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EF7BCA8517EBE91B952B66C /* Pods_Aplikasiberita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aplikasiberita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		557BDEAD6E3426D5E32F33C9 /* Pods-Aplikasiberita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplikasiberita.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aplikasiberita/Pods-Aplikasiberita.debug.xcconfig"; sourceTree = "<group>"; };
+		9B1E154C151A2FAEF1E049EB /* Pods-Aplikasiberita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplikasiberita.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aplikasiberita/Pods-Aplikasiberita.release.xcconfig"; sourceTree = "<group>"; };
+		9CA416C9CA33D2D7A90C5B74 /* Pods_AplikasiberitaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AplikasiberitaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03E56E74BF0B4E00E284C74 /* Pods_AplikasiberitaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AplikasiberitaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6917A651FBACDFF0015EC1F /* KategoriTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriTableViewController.swift; sourceTree = "<group>"; };
+		D6917A671FBACE120015EC1F /* KategoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriTableViewCell.swift; sourceTree = "<group>"; };
+		D6917A691FBACE990015EC1F /* BeritaKategoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaKategoriTableViewCell.swift; sourceTree = "<group>"; };
+		D6917A6B1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaKategoriTableViewController.swift; sourceTree = "<group>"; };
 		D6F192151FBA8F3E00B26864 /* Aplikasiberita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplikasiberita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F192181FBA8F3E00B26864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6F1921A1FBA8F3E00B26864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,10 @@
 		D6F192341FBA8F3E00B26864 /* AplikasiberitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplikasiberitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F192381FBA8F3E00B26864 /* AplikasiberitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplikasiberitaUITests.swift; sourceTree = "<group>"; };
 		D6F1923A1FBA8F3F00B26864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F192461FBA9B3000B26864 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		D6F192481FBA9B6C00B26864 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D6F1924A1FBA9B8000B26864 /* BeritaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaTableViewController.swift; sourceTree = "<group>"; };
+		D6F1924C1FBA9B9200B26864 /* BeritaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544E7041C2F6BE99200C294A /* Pods_Aplikasiberita.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EEFAC38C5061B6F177B8DE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				557BDEAD6E3426D5E32F33C9 /* Pods-Aplikasiberita.debug.xcconfig */,
+				9B1E154C151A2FAEF1E049EB /* Pods-Aplikasiberita.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		415352830A69A921D6C78F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF7BCA8517EBE91B952B66C /* Pods_Aplikasiberita.framework */,
+				C03E56E74BF0B4E00E284C74 /* Pods_AplikasiberitaTests.framework */,
+				9CA416C9CA33D2D7A90C5B74 /* Pods_AplikasiberitaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6F1920C1FBA8F3E00B26864 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				D6F1922C1FBA8F3E00B26864 /* AplikasiberitaTests */,
 				D6F192371FBA8F3E00B26864 /* AplikasiberitaUITests */,
 				D6F192161FBA8F3E00B26864 /* Products */,
+				2EEFAC38C5061B6F177B8DE4 /* Pods */,
+				415352830A69A921D6C78F22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +147,14 @@
 				D6F1921F1FBA8F3E00B26864 /* Assets.xcassets */,
 				D6F192211FBA8F3E00B26864 /* LaunchScreen.storyboard */,
 				D6F192241FBA8F3E00B26864 /* Info.plist */,
+				D6F192461FBA9B3000B26864 /* News.swift */,
+				D6F192481FBA9B6C00B26864 /* DetailViewController.swift */,
+				D6F1924A1FBA9B8000B26864 /* BeritaTableViewController.swift */,
+				D6F1924C1FBA9B9200B26864 /* BeritaTableViewCell.swift */,
+				D6917A651FBACDFF0015EC1F /* KategoriTableViewController.swift */,
+				D6917A671FBACE120015EC1F /* KategoriTableViewCell.swift */,
+				D6917A691FBACE990015EC1F /* BeritaKategoriTableViewCell.swift */,
+				D6917A6B1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift */,
 			);
 			path = Aplikasiberita;
 			sourceTree = "<group>";
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6F1923D1FBA8F3F00B26864 /* Build configuration list for PBXNativeTarget "Aplikasiberita" */;
 			buildPhases = (
+				D46EEC6B54F30D79FC7F2633 /* [CP] Check Pods Manifest.lock */,
 				D6F192111FBA8F3E00B26864 /* Sources */,
 				D6F192121FBA8F3E00B26864 /* Frameworks */,
 				D6F192131FBA8F3E00B26864 /* Resources */,
+				5D6D60224B7C3724AE05BDE3 /* [CP] Embed Pods Frameworks */,
+				7EE88E0505056075C27ABF1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +309,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D6D60224B7C3724AE05BDE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aplikasiberita/Pods-Aplikasiberita-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aplikasiberita/Pods-Aplikasiberita-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE88E0505056075C27ABF1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aplikasiberita/Pods-Aplikasiberita-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46EEC6B54F30D79FC7F2633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aplikasiberita-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6F192111FBA8F3E00B26864 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6917A661FBACDFF0015EC1F /* KategoriTableViewController.swift in Sources */,
+				D6F1924B1FBA9B8000B26864 /* BeritaTableViewController.swift in Sources */,
+				D6917A6A1FBACE990015EC1F /* BeritaKategoriTableViewCell.swift in Sources */,
+				D6F192471FBA9B3000B26864 /* News.swift in Sources */,
+				D6F1924D1FBA9B9200B26864 /* BeritaTableViewCell.swift in Sources */,
 				D6F1921B1FBA8F3E00B26864 /* ViewController.swift in Sources */,
 				D6F192191FBA8F3E00B26864 /* AppDelegate.swift in Sources */,
+				D6F192491FBA9B6C00B26864 /* DetailViewController.swift in Sources */,
+				D6917A6C1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift in Sources */,
+				D6917A681FBACE120015EC1F /* KategoriTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +543,7 @@
 		};
 		D6F1923E1FBA8F3F00B26864 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557BDEAD6E3426D5E32F33C9 /* Pods-Aplikasiberita.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +558,7 @@
 		};
 		D6F1923F1FBA8F3F00B26864 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1E154C151A2FAEF1E049EB /* Pods-Aplikasiberita.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
