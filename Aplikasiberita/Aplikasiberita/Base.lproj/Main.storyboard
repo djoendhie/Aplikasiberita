@@ -157,7 +157,7 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <segue destination="cTM-G4-2JL" kind="modal" id="ZoQ-Hh-K8D"/>
+                        <segue destination="cTM-G4-2JL" kind="modal" identifier="passKategori" id="ZoQ-Hh-K8D"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sxj-RS-UbT" userLabel="First Responder" sceneMemberID="firstResponder"/>
