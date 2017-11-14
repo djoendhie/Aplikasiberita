@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6F192191FBA8F3E00B26864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F192181FBA8F3E00B26864 /* AppDelegate.swift */; };
+		D6F1921B1FBA8F3E00B26864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F1921A1FBA8F3E00B26864 /* ViewController.swift */; };
+		D6F1921E1FBA8F3E00B26864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F1921C1FBA8F3E00B26864 /* Main.storyboard */; };
+		D6F192201FBA8F3E00B26864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F1921F1FBA8F3E00B26864 /* Assets.xcassets */; };
+		D6F192231FBA8F3E00B26864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F192211FBA8F3E00B26864 /* LaunchScreen.storyboard */; };
+		D6F1922E1FBA8F3E00B26864 /* AplikasiberitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F1922D1FBA8F3E00B26864 /* AplikasiberitaTests.swift */; };
+		D6F192391FBA8F3E00B26864 /* AplikasiberitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F192381FBA8F3E00B26864 /* AplikasiberitaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F1922A1FBA8F3E00B26864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F1920D1FBA8F3E00B26864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F192141FBA8F3E00B26864;
+			remoteInfo = Aplikasiberita;
+		};
+		D6F192351FBA8F3E00B26864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F1920D1FBA8F3E00B26864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F192141FBA8F3E00B26864;
+			remoteInfo = Aplikasiberita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6F192151FBA8F3E00B26864 /* Aplikasiberita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplikasiberita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F192181FBA8F3E00B26864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6F1921A1FBA8F3E00B26864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6F1921D1FBA8F3E00B26864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F1921F1FBA8F3E00B26864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F192221FBA8F3E00B26864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F192241FBA8F3E00B26864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F192291FBA8F3E00B26864 /* AplikasiberitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplikasiberitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F1922D1FBA8F3E00B26864 /* AplikasiberitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplikasiberitaTests.swift; sourceTree = "<group>"; };
+		D6F1922F1FBA8F3E00B26864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F192341FBA8F3E00B26864 /* AplikasiberitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplikasiberitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F192381FBA8F3E00B26864 /* AplikasiberitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplikasiberitaUITests.swift; sourceTree = "<group>"; };
+		D6F1923A1FBA8F3F00B26864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F192121FBA8F3E00B26864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F192261FBA8F3E00B26864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F192311FBA8F3E00B26864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F1920C1FBA8F3E00B26864 = {
+			isa = PBXGroup;
+			children = (
+				D6F192171FBA8F3E00B26864 /* Aplikasiberita */,
+				D6F1922C1FBA8F3E00B26864 /* AplikasiberitaTests */,
+				D6F192371FBA8F3E00B26864 /* AplikasiberitaUITests */,
+				D6F192161FBA8F3E00B26864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F192161FBA8F3E00B26864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F192151FBA8F3E00B26864 /* Aplikasiberita.app */,
+				D6F192291FBA8F3E00B26864 /* AplikasiberitaTests.xctest */,
+				D6F192341FBA8F3E00B26864 /* AplikasiberitaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F192171FBA8F3E00B26864 /* Aplikasiberita */ = {
+			isa = PBXGroup;
+			children = (
+				D6F192181FBA8F3E00B26864 /* AppDelegate.swift */,
+				D6F1921A1FBA8F3E00B26864 /* ViewController.swift */,
+				D6F1921C1FBA8F3E00B26864 /* Main.storyboard */,
+				D6F1921F1FBA8F3E00B26864 /* Assets.xcassets */,
+				D6F192211FBA8F3E00B26864 /* LaunchScreen.storyboard */,
+				D6F192241FBA8F3E00B26864 /* Info.plist */,
+			);
+			path = Aplikasiberita;
+			sourceTree = "<group>";
+		};
+		D6F1922C1FBA8F3E00B26864 /* AplikasiberitaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1922D1FBA8F3E00B26864 /* AplikasiberitaTests.swift */,
+				D6F1922F1FBA8F3E00B26864 /* Info.plist */,
+			);
+			path = AplikasiberitaTests;
+			sourceTree = "<group>";
+		};
+		D6F192371FBA8F3E00B26864 /* AplikasiberitaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F192381FBA8F3E00B26864 /* AplikasiberitaUITests.swift */,
+				D6F1923A1FBA8F3F00B26864 /* Info.plist */,
+			);
+			path = AplikasiberitaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F192141FBA8F3E00B26864 /* Aplikasiberita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F1923D1FBA8F3F00B26864 /* Build configuration list for PBXNativeTarget "Aplikasiberita" */;
+			buildPhases = (
+				D6F192111FBA8F3E00B26864 /* Sources */,
+				D6F192121FBA8F3E00B26864 /* Frameworks */,
+				D6F192131FBA8F3E00B26864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aplikasiberita;
+			productName = Aplikasiberita;
+			productReference = D6F192151FBA8F3E00B26864 /* Aplikasiberita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F192281FBA8F3E00B26864 /* AplikasiberitaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F192401FBA8F3F00B26864 /* Build configuration list for PBXNativeTarget "AplikasiberitaTests" */;
+			buildPhases = (
+				D6F192251FBA8F3E00B26864 /* Sources */,
+				D6F192261FBA8F3E00B26864 /* Frameworks */,
+				D6F192271FBA8F3E00B26864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F1922B1FBA8F3E00B26864 /* PBXTargetDependency */,
+			);
+			name = AplikasiberitaTests;
+			productName = AplikasiberitaTests;
+			productReference = D6F192291FBA8F3E00B26864 /* AplikasiberitaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F192331FBA8F3E00B26864 /* AplikasiberitaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F192431FBA8F3F00B26864 /* Build configuration list for PBXNativeTarget "AplikasiberitaUITests" */;
+			buildPhases = (
+				D6F192301FBA8F3E00B26864 /* Sources */,
+				D6F192311FBA8F3E00B26864 /* Frameworks */,
+				D6F192321FBA8F3E00B26864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F192361FBA8F3E00B26864 /* PBXTargetDependency */,
+			);
+			name = AplikasiberitaUITests;
+			productName = AplikasiberitaUITests;
+			productReference = D6F192341FBA8F3E00B26864 /* AplikasiberitaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F1920D1FBA8F3E00B26864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6F192141FBA8F3E00B26864 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6F192281FBA8F3E00B26864 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F192141FBA8F3E00B26864;
+					};
+					D6F192331FBA8F3E00B26864 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F192141FBA8F3E00B26864;
+					};
+				};
+			};
+			buildConfigurationList = D6F192101FBA8F3E00B26864 /* Build configuration list for PBXProject "Aplikasiberita" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F1920C1FBA8F3E00B26864;
+			productRefGroup = D6F192161FBA8F3E00B26864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F192141FBA8F3E00B26864 /* Aplikasiberita */,
+				D6F192281FBA8F3E00B26864 /* AplikasiberitaTests */,
+				D6F192331FBA8F3E00B26864 /* AplikasiberitaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F192131FBA8F3E00B26864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F192231FBA8F3E00B26864 /* LaunchScreen.storyboard in Resources */,
+				D6F192201FBA8F3E00B26864 /* Assets.xcassets in Resources */,
+				D6F1921E1FBA8F3E00B26864 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F192271FBA8F3E00B26864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F192321FBA8F3E00B26864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F192111FBA8F3E00B26864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F1921B1FBA8F3E00B26864 /* ViewController.swift in Sources */,
+				D6F192191FBA8F3E00B26864 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F192251FBA8F3E00B26864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F1922E1FBA8F3E00B26864 /* AplikasiberitaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F192301FBA8F3E00B26864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F192391FBA8F3E00B26864 /* AplikasiberitaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F1922B1FBA8F3E00B26864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F192141FBA8F3E00B26864 /* Aplikasiberita */;
+			targetProxy = D6F1922A1FBA8F3E00B26864 /* PBXContainerItemProxy */;
+		};
+		D6F192361FBA8F3E00B26864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F192141FBA8F3E00B26864 /* Aplikasiberita */;
+			targetProxy = D6F192351FBA8F3E00B26864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F1921C1FBA8F3E00B26864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F1921D1FBA8F3E00B26864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F192211FBA8F3E00B26864 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F192221FBA8F3E00B26864 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F1923B1FBA8F3F00B26864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6F1923C1FBA8F3F00B26864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F1923E1FBA8F3F00B26864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Aplikasiberita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Aplikasiberita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F1923F1FBA8F3F00B26864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Aplikasiberita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Aplikasiberita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6F192411FBA8F3F00B26864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiberitaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.AplikasiberitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aplikasiberita.app/Aplikasiberita";
+			};
+			name = Debug;
+		};
+		D6F192421FBA8F3F00B26864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiberitaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.AplikasiberitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aplikasiberita.app/Aplikasiberita";
+			};
+			name = Release;
+		};
+		D6F192441FBA8F3F00B26864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiberitaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.AplikasiberitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aplikasiberita;
+			};
+			name = Debug;
+		};
+		D6F192451FBA8F3F00B26864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiberitaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.AplikasiberitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aplikasiberita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F192101FBA8F3E00B26864 /* Build configuration list for PBXProject "Aplikasiberita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F1923B1FBA8F3F00B26864 /* Debug */,
+				D6F1923C1FBA8F3F00B26864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F1923D1FBA8F3F00B26864 /* Build configuration list for PBXNativeTarget "Aplikasiberita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F1923E1FBA8F3F00B26864 /* Debug */,
+				D6F1923F1FBA8F3F00B26864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F192401FBA8F3F00B26864 /* Build configuration list for PBXNativeTarget "AplikasiberitaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F192411FBA8F3F00B26864 /* Debug */,
+				D6F192421FBA8F3F00B26864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F192431FBA8F3F00B26864 /* Build configuration list for PBXNativeTarget "AplikasiberitaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F192441FBA8F3F00B26864 /* Debug */,
+				D6F192451FBA8F3F00B26864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F1920D1FBA8F3E00B26864 /* Project object */;
+}
