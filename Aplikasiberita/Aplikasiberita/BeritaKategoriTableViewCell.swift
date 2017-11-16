@@ -12,6 +12,7 @@ class BeritaKategoriTableViewCell: UITableViewCell {
     @IBOutlet weak var imgBerita: UIImageView!
     @IBOutlet weak var labelJud: UILabel!
     @IBOutlet weak var labelISI: UILabel!
+    @IBOutlet weak var labelKat: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

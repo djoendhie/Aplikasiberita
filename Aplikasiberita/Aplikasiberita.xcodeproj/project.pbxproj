@@ -12,6 +12,7 @@
 		D6917A681FBACE120015EC1F /* KategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917A671FBACE120015EC1F /* KategoriTableViewCell.swift */; };
 		D6917A6A1FBACE990015EC1F /* BeritaKategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917A691FBACE990015EC1F /* BeritaKategoriTableViewCell.swift */; };
 		D6917A6C1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917A6B1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift */; };
+		D69490391FBBF95600CB2807 /* DetailKatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69490381FBBF95600CB2807 /* DetailKatViewController.swift */; };
 		D6F192191FBA8F3E00B26864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F192181FBA8F3E00B26864 /* AppDelegate.swift */; };
 		D6F1921B1FBA8F3E00B26864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F1921A1FBA8F3E00B26864 /* ViewController.swift */; };
 		D6F1921E1FBA8F3E00B26864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F1921C1FBA8F3E00B26864 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		D6917A671FBACE120015EC1F /* KategoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriTableViewCell.swift; sourceTree = "<group>"; };
 		D6917A691FBACE990015EC1F /* BeritaKategoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaKategoriTableViewCell.swift; sourceTree = "<group>"; };
 		D6917A6B1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaKategoriTableViewController.swift; sourceTree = "<group>"; };
+		D69490381FBBF95600CB2807 /* DetailKatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailKatViewController.swift; sourceTree = "<group>"; };
 		D6F192151FBA8F3E00B26864 /* Aplikasiberita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplikasiberita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F192181FBA8F3E00B26864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6F1921A1FBA8F3E00B26864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				D6917A671FBACE120015EC1F /* KategoriTableViewCell.swift */,
 				D6917A691FBACE990015EC1F /* BeritaKategoriTableViewCell.swift */,
 				D6917A6B1FBACEB40015EC1F /* BeritaKategoriTableViewController.swift */,
+				D69490381FBBF95600CB2807 /* DetailKatViewController.swift */,
 			);
 			path = Aplikasiberita;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				D6917A661FBACDFF0015EC1F /* KategoriTableViewController.swift in Sources */,
 				D6F1924B1FBA9B8000B26864 /* BeritaTableViewController.swift in Sources */,
 				D6917A6A1FBACE990015EC1F /* BeritaKategoriTableViewCell.swift in Sources */,
+				D69490391FBBF95600CB2807 /* DetailKatViewController.swift in Sources */,
 				D6F192471FBA9B3000B26864 /* News.swift in Sources */,
 				D6F1924D1FBA9B9200B26864 /* BeritaTableViewCell.swift in Sources */,
 				D6F1921B1FBA8F3E00B26864 /* ViewController.swift in Sources */,
